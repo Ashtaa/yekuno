@@ -95,7 +95,10 @@ nav {
   background-color: #fff;
   margin: 3px 0;
 }
-
+.p3{
+  
+  margin-top: 100px;
+}
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .skill{
@@ -168,19 +171,76 @@ span{
 
 .about p{
   color: #130000;
-  padding-left: 10px;
-  padding-right: 10px;
+ 
   
 }
-
+.btn{
+  margin-top: 50px ;
+  margin-left: 10px;
+}
+.social svg{
+  display: block;
+  font-size: 50px;
+  
+  margin: 20px;
+}
+.social{
+  padding: 150px;
+  
+}
+.about h3{
+  margin-left: 40%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.detail{
+  display: flex;
+margin-left: 200px;
+}
+.detail div{
+ margin-left: 10%;
+ font-size: 20px;
+ margin-top: 5px;
+}
+.side{
+  display: flex;
+  margin-left: 20%;
+  margin-top: 0;
+}
+.side div {
+  border: 2px solid #130000;
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+  margin-top: 100px;
+}
+.side div h1{
+  margin-top: 50px;
+}
+.side div p{
+  color: aqua;
+  text-align: center;
+  background-color: #130000;
+  height: 40px;
+  margin-bottom: 0;
+}
+.about{
+  display: flex;
+  padding: 0;
+}
+.h2{
+  margin-top: 20px;
+}
 @media only screen and (min-width:992px){
+  .btn{
+    margin: 50px;
+  }
   .about p{
     color: #130000;
-    padding-left: 200px;
-    padding-right: 200px;
+   
     font-size: 20px;
   }
-  h1{
+  .h1{
     color: #fffb00;
     padding: 50px 50px;
     margin-top: 150px;
@@ -189,7 +249,7 @@ span{
     display: none;
   }
 }
-p{
+.p{
   font-weight: 700;
   color: white;
   color: yellow;
@@ -220,7 +280,7 @@ p{
   background-color: #130000;
   border: 2px solid;
   border-color: #fafe01;
-  margin: 50px;
+ 
 }
 .btn a{
   color: #fe017f;
