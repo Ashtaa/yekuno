@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins",sans-serif;
+}
+body{
+  background: #020146;
+}
+
+@media (max-width: 768px) {
+  .ham-menu{
+    background-color: #020146;
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+  }
+  .clip-path{
+    display: none;
+  } 
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.navbar ul{
+  flex: 1;
+  text-align: right;
+  padding: 2% 6%;
+  font-size: 12px;
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 4px 6px;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+}
+.navbar ul li:hover:after{
+width: 100%;
+}
+.logo{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.text{
+  color: #fff;
+  padding: 10px 80px;
+}
+.text h1{
+  font-size: 60px;
+}
+span{
+  color: #02d3fc;
+  color: #fe017f;
+}
+.btn{
+  padding: 20px 40px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 2px solid #fe017f;
+  transition: 0.5s;
+}
+.btn:hover{
+  transform: translateY(-5px);
+}
+.img{
+  position: absolute;
+  right: 50px;
+  top: 41px;
+ 
+}
+img{
+  height: 300px;
+}
+.clip-path{
+  clip-path: polygon(100% 0,100% 100%,49% 100%,65% 48%,48% 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #02d3fc;
+  background: #fe017f;
+}
+@media only screen and(min-width:1200px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+  }
+  body{
+    background: #020146;
+  }
+  
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 6%;
+  }
+  .navbar ul{
+    flex: 1;
+    text-align: right;
+  
+  }
+  .navbar ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  .navbar ul li:hover:after{
+  width: 100%;
+  }
+  .logo{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .text{
+    color: #fff;
+    padding: 10px 80px;
+  }
+  .text h1{
+    font-size: 60px;
+  }
+  span{
+    color: #02d3fc;
+    color: #fe017f;
+  }
+  .btn{
+    padding: 20px 40px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid #fe017f;
+    transition: 0.5s;
+  }
+  .btn:hover{
+    transform: translateY(-5px);
+  }
+  .img{
+    position: absolute;
+    right: 50px;
+    top: 41px;
+   
+  }
+  img{
+    height: 300px;
+  }
+  
+}
