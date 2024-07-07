@@ -100,7 +100,7 @@ nav {
   .skill-bar{
     height: 20px;
     background-color: #87fa05;
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
   }
   .side div p{
@@ -114,7 +114,7 @@ nav {
   }
   .social2{
   
-    font-size: 30px;
+    font-size: 50px;
   }
   .social2 svg{
     margin-left: 5px;
@@ -124,6 +124,7 @@ nav {
     display: none;
     font-size: 50px ;
     margin-left: 0px;
+    
   }
   .social svg{
     display: block;
@@ -248,7 +249,7 @@ span{
 
 
 .h2{
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 @media only screen and (min-width:992px){
